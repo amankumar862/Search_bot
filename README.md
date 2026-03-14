@@ -7,7 +7,7 @@ Users can enter a topic in the search bar, and the application returns the top r
 
 ## 📸 Screenshot
 
-![Search Bot Screenshot](ss/Screenshot 2026-03-14 195450.png)
+![Search Bot Screenshot](search%20bot/Screenshot/Screenshot%202026-03-14%20195450.png)
 
 > Place your screenshot inside a folder named **screenshots** and name it `search_bot.png`.
 
