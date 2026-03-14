@@ -57,42 +57,8 @@ Search_bot
 
 ---
 
-## ⚙️ Installation
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/yourusername/Search_bot.git
-cd Search_bot
-```
-
-### 2. Create a virtual environment
-
-```bash
-python -m venv .venv
-```
-
-### 3. Activate the virtual environment
-
-**Windows**
-
-```bash
-.venv\Scripts\activate
-```
-
-**Mac / Linux**
-
-```bash
-source .venv/bin/activate
-```
-
-### 4. Install dependencies
-
-```bash
-pip install flask wikipedia
-```
-
----
+##Initialization
+run in terminal - pip install -r requirements.txt
 
 ## ▶️ Running the Application
 
