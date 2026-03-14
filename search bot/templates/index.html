@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Wiki Search</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+
+</head>
+
+<body>
+    <div class="container">
+  
+        <h1>Wiki~Search</h1>
+
+    <form method="POST">
+        <input type="text" name="search" placeholder="Enter topic">
+        <button type="submit">Search</button>
+    </form>
+
+    <div id="loading" style="display:none;">
+        Searching Wikipedia...
+    </div>
+
+    <div class="results">
+        
+        {% if result %}
+
+       <ul class="result-list">
+
+        {% for item in result %}
+            <li class="result-item">
+
+                <a href="{{ item.url }}" target="_blank" class="result-title">
+                    {{ item.title }}
+                </a>
+
+                <p class="result-link">
+                    {{ item.url }}
+                </p>
+
+                <p class="result-summary">
+                    {{ item.summary}}
+                </p>
+
+            </li>
+        {% endfor %}
+
+       </ul>
+
+       {% endif %}
+
+    </div>
+
+    </div>
+
+    <script>
+        
+        const form = document.querySelector("form");
+
+        form.addEventListener("submit", function(){
+            document.getElementById("loading").style.display = "block";
+        });
+
+    </script>
+
+</body>
+</html>
