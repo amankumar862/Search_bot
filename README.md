@@ -17,6 +17,7 @@ Example project structure:
 Search_bot
 │
 ├── app.py
+|__ requirements.txt
 ├── templates
 │   └── index.html
 ├── static
@@ -58,7 +59,11 @@ Search_bot
 ---
 
 ## Initialization
-run in terminal - pip install -r requirements.txt
+run in terminal 
+
+```bash
+pip install -r requirements.txt
+```
 
 ## ▶️ Running the Application
 
