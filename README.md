@@ -16,8 +16,8 @@ Example project structure:
 ```
 Search_bot
 │
-├── app.py
-|__ requirements.txt
+|── app.py
+|── requirements.txt
 ├── templates
 │   └── index.html
 ├── static
