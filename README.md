@@ -57,7 +57,7 @@ Search_bot
 
 ---
 
-##Initialization
+## Initialization
 run in terminal - pip install -r requirements.txt
 
 ## ▶️ Running the Application
